@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Hyper link-->
+    <!--
+    <a href="URL đường link liên kết đến trang web cần sử dụng">host post</a>
+    -->
+    <!-- Internet: bắt buộc phải đưa ra giao thức include http hoặc https, khi gọi 1 đường dẫn, ko có http thì sẽ thành đường dẫn tương đối, code sẽ hiểu thành chuyển sang Web Root nên chỉ tìm trong trang web thôi
+     sẽ thành lỗi 404, thường hiện 404.
+     -->
+     <!--
+     protocol: giao thức mạng http-https(security)
+     client -- (request) Web server thông qua http-->
+
+    <p> <a href="https://www.google.com" > Visit Google</a> </p>
+
+    <p> <a href=" Demo.html"> Open Demo </a></p>
+
+    <p> <a href="ThuVien/Java.html"> Open</a></p>
+    <!--
+    Đường dẫn tuyệt đối: không sử dụng vì dễ bị bay màu, dùng tương đối thôi.
+    chỉ sử dụng khi dùng link website vì có giao thức mạng.
+    -->
+    <p> <a href="Demo.html#YeuCau">Open Demo - Yêu cầu</a></p>
+</body>
+</html>

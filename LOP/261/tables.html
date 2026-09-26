@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table demos</title>
+</head>
+<body>
+    <table border="1"><!-- dùng để design trang web, khá cứng nhắc, gần như không được
+         dùng làm layout, chỉ để căn chỉnh
+         border để quy định bảng có đường kẻ hay không
+         không viết border mặc định =0-->
+        <caption> Bảng điểm </caption>
+        <tr> <!-- tr là table row: tạo dòng cho bảng-->
+            
+            <th rowSpan="2">STT</th>
+            <th rowSpan="2">Họ và tên</th>
+            <th colSpan="3">Điểm</th>
+            <th rowSpan="2">Ghi chú</th>
+           
+        </tr>
+        <tr>
+            <th> Toán </th>
+            <th> Lý </th>
+            <th> Hóa </th>
+        </tr>
+        <tr>
+            <td> 1 </td> <!-- table data: dữ liệu trong bảng-->
+            <td> Nguyễn Văn An </td>
+            <td> 10 </td>
+            <td> 8 </td>
+            <td> 9 </td>
+            <td>  </td>
+            
+        </tr>
+        <!-- Chỉ cần nhập đến đây để demo, sau đó sẽ có vòng lặp từ database-->
+
+        <tr>
+            <td> 2 </td>
+            <td> Trần Thị B </td>
+            <td> 5 </td>
+            <td> 10 </td>
+            <td> 10 </td>
+            <td>  </td>
+            
+        </tr>
+    </table>
+</body>
+</html>
